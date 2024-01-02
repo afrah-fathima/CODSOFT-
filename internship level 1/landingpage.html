@@ -4,63 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 100%;
-            padding: 0 15px;
-            margin: 0 auto;
-        }
-
-        .hero {
-            background-color: #4CAF50;
-            padding: 30px;
-            margin: 30px auto;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            color: #fff;
-        }
-
-        h1 {
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-
-        .cta {
-            display: inline-block;
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-
-        .cta:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link rel="stylesheet" href="styles1.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="hero">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
             <h1>Welcome to Our Website</h1>
-            <p>This is a simple landing page for your website.</p>
-            <a href="#" class="cta">Call to Action</a>
-        </div>
-    </div>
+            <p>This is a sample landing page</p>
+            <button>Get Started</button>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+        </section>
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <ul>
+                <li>Plan 1</li>
+                <li>Plan 2</li>
+                <li>Plan 3</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1 123 456 789</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 All Rights Reserved</p>
+    </footer>
 </body>
 </html>
